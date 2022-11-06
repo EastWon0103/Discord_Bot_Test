@@ -17,7 +17,7 @@ module.exports = {
         const team1 = interaction.guild.channels.cache.get(process.env.CHAT_ID_1);
         const team2 = interaction.guild.channels.cache.get(process.env.CHAT_ID_2);
         
-        
+        console.log(mainChannel.members.size);
         try {
             var setTeam1 = true;
             mainChannel.members.map((member) => {
