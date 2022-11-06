@@ -1,5 +1,11 @@
 const {SlashCommandBuilder} = require('discord.js');
+const dotenv = require('dotenv');
+dotenv.config();
 
+/**
+ * /ping
+ * output: Pong!
+ */
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('ping')
