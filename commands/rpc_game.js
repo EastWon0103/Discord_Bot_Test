@@ -23,9 +23,9 @@ function gameResult(user, bot) {
         }
     } else {
         if(bot=='가위') {
-            return "축하합니다!! 당신이 이겼습니다!";
-        } else if (bot=='바위') {
             return "당신은 looser 입니다.";
+        } else if (bot=='바위') {
+            return "축하합니다!! 당신이 이겼습니다!";
         } else {
             return "비겼습니다 ㅜㅜ";
         }
